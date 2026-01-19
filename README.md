@@ -1,6 +1,6 @@
 # Unrestricted File Upload Leading to Remote Code Execution (RCE) in Sourcecodester Pet Grooming Management Software 
 
-- **Product Name:** Pet Grooming Management Software 1.0
+- **Product Name:**The SourceCodester Pet Grooming Management Software 1.0
 - **Vendor:** SourceCodester
 - **Product Page:**
   https://www.sourcecodester.com/php/18340/pet-grooming-management-software-download.html
@@ -9,7 +9,7 @@
 
 ## Summary
 
-**Pet Grooming Management Software** contains an **unrestricted file upload vulnerability** in the **user profile picture upload functionality**.
+The SourceCodester **Pet Grooming Management Software** contains an **unrestricted file upload vulnerability** in the **user profile picture upload functionality**.
 
 A **low-privileged authenticated user** can upload a **malicious PHP file** disguised as an image. The uploaded file is stored inside a **web-accessible directory without sanitization or execution restrictions**, allowing direct access and **remote command execution**.
 
